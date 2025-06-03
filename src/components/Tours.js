@@ -9,7 +9,7 @@ const Tours = () => {
         {tours.map((tour) => {
           const { id, src, date, title, city, time, price, text } = tour;
           return (
-            <article className="tour-card" kry={id}>
+            <article className="tour-card" key={id}>
               <div className="tour-img-container">
                 <img src={src} className="tour-img" alt="" />
                 <p className="tour-date">{date}</p>

@@ -1,7 +1,6 @@
 import logo from "../images/logo.svg";
 import PageLinks from "./PageLinks";
 import SocialLink from "./SocialLink";
-
 const Navbar = () => {
   return (
     <nav className="navbar">

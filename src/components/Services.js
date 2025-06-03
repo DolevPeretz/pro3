@@ -8,7 +8,7 @@ const Services = () => {
 
       <div className="section-center services-center">
         {services.map((service) => {
-          return <service key={service.id} {...service} />;
+          return <Service key={service.id} {...service} />;
         })}
       </div>
     </section>
